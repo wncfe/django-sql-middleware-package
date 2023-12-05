@@ -1,4 +1,4 @@
-Simple example of Django middleware package
+SQL Tools
 ===========================================
 
 Installation
