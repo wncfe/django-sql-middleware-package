@@ -4,9 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wncfe-query-inspector"
-version = "1.0.4"
+version = "1.0.1"
 description = "A Django middleware package to print SQL queries to the terminal"
-readme = "README.rst"
 authors = [
 	{name = "wncfe", email = "alekseip2002@gmail.com"}
 ]
@@ -16,6 +15,10 @@ dependencies = [
 ]
 
 requires-python = ">=3.12"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
 
 [tool.setuptools.packages.find]
 include = ["wncfe-sql-tools"]
